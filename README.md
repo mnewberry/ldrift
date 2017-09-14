@@ -29,7 +29,7 @@ The rhyming analysis additionally requires:
 ### Generating random drift
 
 To generate random timeseries under drift, edit `simulate-bridge.sh` to inform
-it of the location of `sr`, then run it.  
+it of the location of `sr`, then run it (see comments in that file for usage).
 
 The specific data used for Figure 1 can be generated using the seed:
 
