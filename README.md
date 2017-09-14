@@ -31,9 +31,9 @@ The rhyming analysis additionally requires:
 To generate random timeseries under drift, edit `simulate-bridge.sh` to inform
 it of the location of `sr`, then run it.  
 
-The specific data used for figure 1 can be generated using the seed:
+The specific data used for Figure 1 can be generated using the seed:
 
-  ./sr -R -e 1329052268 -b 0.1,0.8,0,2
+    ./sr -R -e 1329052268 -b 0.1,0.8,0,2
 
 ### Past-tense verbs
 
