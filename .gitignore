@@ -2,4 +2,5 @@
 _build/
 data/
 local/
+Rplots.pdf
 *.native

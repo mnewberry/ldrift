@@ -6,7 +6,7 @@ LDRIFT_PREFIX=${LDRIFT_PREFIX:-data/COHA/Word_lemma_PoS/}
   # relative directory
 
 OUT=local/data/vvd-COHA
-mkdir local/data/
+mkdir -p local/data/
 echo "Writing tokens from $LDRIFT_PREFIX to $OUT ..."
 
 # Write header to output file
