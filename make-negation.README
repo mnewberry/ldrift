@@ -1,0 +1,20 @@
+Clone https://github.com/christopherahern/jespersens-cycle-middle-english and
+follow instructions therein to generate the file data/neg-data.csv to be placed
+in local/data/neg-data.csv in this repository.  When linking the PPCME2 corpus,
+use the latest release, which at the time of the writing is PPCME2-RELEASE-3/ .
+ 
+The result should contain:
+
+"exclude","ne","not","clausetype","never.posn","finite","id","year","document","stage"
+"-","-","-","second-conjunct","-","-","CMAELR3-M23,26.5",1400,"CMAELR3-M23",3
+"contraction","contracted","-","matrix","-","-","CMAELR3-M23,27.27",1400,"CMAELR3-M23",3
+"contraction","contracted","-","matrix","-","-","CMAELR3-M23,27.29",1400,"CMAELR3-M23",3
+"-","-","postverbal","relative","-","finite","CMAELR3-M23,27.29",1400,"CMAELR3-M23",3
+"-","-","postverbal","other","-","finite","CMAELR3-M23,27.42",1400,"CMAELR3-M23",3
+"-","-","postverbal","matrix","-","finite","CMAELR3-M23,27.44",1400,"CMAELR3-M23",3
+"-","-","postverbal","that","-","finite","CMAELR3-M23,27.44",1400,"CMAELR3-M23",3
+"-","-","postverbal","relative","-","finite","CMAELR3-M23,27.45",1400,"CMAELR3-M23",3
+"-","-","postverbal","matrix","-","finite","CMAELR3-M23,28.70",1400,"CMAELR3-M23",3
+
+neg-data.csv should match md5sum:
+e496a1f09b5ce42e77e3ee92a8294ee5  local/data/neg-data.csv

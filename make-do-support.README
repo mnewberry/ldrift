@@ -1,0 +1,15 @@
+Clone https://github.com/christopherahern/do-PPCHE and check out the last
+working version, which, as of the writing is 
+
+git checkout f83c41d4b8e0f6ef5629fdeba840f42d96cd4f66
+
+Follow instructions therein, eg, run `make all` (after linking the location of the
+PPCHE data to corpus/ in that directory, which we did with ln -s
+/pub/ldrift/data/ corpus), to generate the file data/do-support.txt.
+
+Copy the output to the appropriate file in ldrift:
+
+cp <path-to-do-PPCHE-repository>/data/do-support.txt local/data/do-PPCHE
+
+The output file, do-PPCHE, has md5sum:
+26cc1f8c72a1659683352d  local/data/do-PPCHE
