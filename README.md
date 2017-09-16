@@ -7,7 +7,7 @@ Quantify the strength of selection and drift in linguistic timeseries.
 
 ### Software
 
-The softwar requires a UNIX environment such as Linux or Mac OS X with the
+The software requires a UNIX environment such as Linux or Mac OS X with the
 following software, and required libraries:
 - java
 - R with libraries ggplot2, dplyr, grid, gridExtra
@@ -22,7 +22,7 @@ The rhyming analysis additionally requires:
 ### Corpora
 
 - The Corpus of Historical American English (COHA), available from https://corpus.byu.edu/coha/
-- The Penn Parsed Corpora of Historical English is available from http://www.ling.upenn.edu/hist-corpora/
+- The Penn Parsed Corpora of Historical English, available from http://www.ling.upenn.edu/hist-corpora/
 
 ## Execution
 
